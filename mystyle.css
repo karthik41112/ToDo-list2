@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 95vh;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(105, 105, 255),
+    rgb(64, 2, 79)
+  );
+  color: white;
+}
+
+.add {
+  display: flex;
+  position: absolute;
+  left: 25vw;
+  top: 30vh;
+}
+.row {
+  display: flex;
+  /* border: 2px solid black; */
+  margin: 10px 0px;
+  height: 5vh;
+}
+.text {
+  width: 70vw;
+  background-color: white;
+  margin: 0px;
+  color: black;
+}
+
+#box {
+  width: 40vw;
+  height: 5vh;
+}
+
+.table {
+  position: absolute;
+  top: 55vh;
+  left: 30vw;
+  width: 40vw;
+  align-items: center;
+}
+.but {
+  width: 10vw;
+}
+.m.but {
+  color: rgb(90, 3, 112);
+  border: 0px;
+  margin: 1px 0px;
+}
+
+.edit.but {
+  color: white;
+  background-color: rgb(105, 105, 255);
+  border: 0px;
+}
+
+.del.but {
+  color: white;
+  background-color: rgb(94, 3, 117);
+  border: 0px;
+}
+#txa {
+  padding: 6px 0px 0px 0px;
+}
